@@ -34,3 +34,26 @@ stores data on server
   	  Brand / ID / ModelName / Cost
   	  	ref => brand 
 
+
+2nd commit = node fetches and can add data to our database
+
+goal: be able to add that data on client side. 
+
+easiest way to do so? 
+
+form 
+3 inputs
+onsubmit
+info is stored as a variable and exported
+
+
+next step
+add react
+  -a component that displays bikes and modeles
+  -and a component that allows you to add them 
+
+
+clear picture of what i am doing
+https://wireframe.cc/myjHM3
+
+
