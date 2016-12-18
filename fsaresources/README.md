@@ -3,6 +3,8 @@ This is a resource for making a full stack app
 Topics covered
 -postgres sql
 
+-knex
+
 -node.js
   -api call
 

@@ -20,6 +20,19 @@ app.get('/bikes', (req, res) => {
 
 })
 
+  // knex('models').insert({bike: body.the})
+app.post('/bikes', (req, res) => {
+    const body = req.body;
+    console.log(body.the);
+    knex.insert({bike: "zaz", description: "xc", maker_id: 4 }).into('models').then(id => {
+        console.log(id);
+    })
+    .finally(function() {
+        knex.destroy();
+    })
+    return res.json({})
+})
+
 function runServer() {
     return new Promise((resolve, reject) => {
         app.listen(PORT, HOST, (err) => {
